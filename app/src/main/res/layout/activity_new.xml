@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewActivity"
+    android:orientation="vertical"
+    android:background="@drawable/border_login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textSize="40sp"
+        android:textColor="#291A1A"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:hint="Choose a user name: "
+        android:id="@+id/etNewName"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:hint="Choose an E-Mail account: "
+        android:id="@+id/etNewMail"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:hint="Choose password: "
+        android:inputType="textPassword"
+        android:id="@+id/etNewPass"/>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/save"
+        android:id="@+id/btNew"/>
+
+</LinearLayout>

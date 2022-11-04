@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LevelSelectActivity"
+    android:orientation="vertical"
+    android:background="@drawable/border_login">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/go_back"
+        android:background="@null"
+        android:id="@+id/ibBack"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="World 1"
+            android:fontFamily="@font/franklin"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="35dp"
+            android:textColor="@color/white"
+            android:id="@+id/tvLevelDisplay"
+            />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="0"
+                    android:id="@+id/ibLevel1"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_column="1"
+                    android:src="@drawable/locked_level"
+                    android:id="@+id/ibLevel2"
+                    />
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="2"
+                    android:id="@+id/ibLevel3"/>
+            </TableRow>
+            <TableRow>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="0"
+                    android:id="@+id/ibLevel4"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="1"
+                    android:id="@+id/ibLevel5"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="2"
+                    android:id="@+id/ibLevel6"/>
+            </TableRow>
+            <TableRow>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="0"
+                    android:id="@+id/ibLevel7"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="1"
+                    android:id="@+id/ibLevel8"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/locked_level"
+                    android:layout_column="2"
+                    android:id="@+id/ibLevel9"/>
+            </TableRow>
+        </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp">
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/back_arrow"
+            android:background="@null"
+            android:id="@+id/ibBackArrow"/>
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/locked_level"
+            android:background="#880707"
+            android:id="@+id/ibBoss"/>
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/forward_arrow"
+            android:background="@null"
+            android:id="@+id/ibForwardArrow"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
+
